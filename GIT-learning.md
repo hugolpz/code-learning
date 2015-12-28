@@ -1,15 +1,13 @@
-#GIT-LEARNING
+## GIT-LEARNING
 Tips on git, github, gitlab.
 
-# GENERAL
+## GENERAL
 ### HOW TO: CANCEL LAST PUSH TO GITHUB
-
 ```
 git push -f origin HEAD~1:master
 ```
 
 ### HOW TO: REMOVE FOLDER svg FROM GIT HISTORY
-
 ```
 git filter-branch --tree-filter 'rm -rf svg' --prune-empty HEAD
 echo svg/ >> .gitignore
@@ -45,5 +43,4 @@ git push origin master
 
 ### HOW TO: MERGE SEVERAL (minor) COMMITS ? --rebase ?
 
-
-# GIT SUBMODULES
+## GIT SUBMODULES
